@@ -16,9 +16,9 @@ Page untitled
 		<title>{{ page-title }}</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport">
 		{% include metadata.html %}
-		<link href="{{ setting-resourcesBasePathTheme }}/assets/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
 		<link rel="stylesheet" href="{{ setting-resourcesGCWebBasePathTheme }}/GCWeb/css/theme{{ setting-minifiedSuffix }}.css" />
-		<link rel="stylesheet" href="{{ setting-resourcesBasePathTheme }}/assets/oag.css" />
+		<link rel="stylesheet" href="assets/oag.css" />
 	</head>
 	<body {% if page.pageclass %}class="{{ page.pageclass }}" {% endif %}vocab="http://schema.org/" typeof="WebPage">
 	{%- if page.archived -%}
