@@ -1,0 +1,49 @@
+# Jekyll-specific files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node.js dependencies
+node_modules/
+yarn.lock
+
+# Build artifacts
+dist/
+lib/
+sprite*.*css
+sprite*.png
+
+# Minified files
+*.min.js
+*.min.css
+*.map
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ethumbs.db
+.Spotlight-V100
+.Trashes
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+*.pid
+*.seed
+
+# Environment and secrets
+.env
+.env.*.local
+.secrets
+
+# Test coverage and reports
+coverage/
+.nyc_output
+*.lcov
